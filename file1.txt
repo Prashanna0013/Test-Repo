@@ -1,1 +1,2 @@
+This is file from branch1
 Hello world. Hi
