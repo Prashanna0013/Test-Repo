@@ -1,11 +1,14 @@
 import java.util.*;
 class Test{
     public static void main(String[] args){
-        System.out.println("This is java File");
-        System.out.println("Hello World");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        Test t = new Test();
+        t.table(a);
     }
-    int add(int a,int b){
-        System.out.println(a+b);
-        return a+b;
+    void table(int a){
+       for(int i=1;i<=10;i++){
+        System.out.println(a+"x"+i+"="+(a*i));
+       }
     }
 }
